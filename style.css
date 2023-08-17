@@ -98,6 +98,7 @@ min-width: 400px;
     background: linear-gradient(0deg, #000000, #121211),
 linear-gradient(0deg, rgba(18, 16, 16, 0.95), rgba(18, 16, 16, 0.95));
 color: #ffffff;
+      overflow:hidden;
 }
 #form_body{
     position: absolute;
