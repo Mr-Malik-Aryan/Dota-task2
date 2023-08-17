@@ -1,0 +1,137 @@
+nav{
+    display: flex;
+    background-color:#170A0A;
+    width: 100%;
+     max-height: 118px;
+     height: 10%;
+     box-shadow: 0px 60px 44px -6px #00000A inset;
+   border-bottom-left-radius: 20px;
+   border-bottom-right-radius: 20px;
+}
+#image_holder{
+    background-image: url(blurred-bg.png)
+}
+#menu_body{
+    color: #FFFFFF;
+    display: flex;
+    height:60%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: first baseline;
+
+}
+#m{
+    color: #FFFFFF;
+}
+   
+
+
+
+#part_r{
+    align-self:flex-end ;
+background-image: url(blurred-bg.png);}
+a{
+    color: #ffffff;
+    text-decoration: none;
+    align-content: end;
+font-size: 18px;
+font-weight: 700;
+line-height: 27px;
+letter-spacing: 0em;
+text-align: left;
+font-family: 'Inter', sans-serif;
+letter-spacing: 1px;
+}
+#Anchors{
+    width: 100%;
+ display: flex;
+padding-right: 5%;
+height: 15% of body;
+justify-content: right;
+align-self: center;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: url(blurred-bg.png),
+     url(Rectangle\ 5.png);
+      background-size: 60% 100vh ,40% 100vh;
+     object-fit: contain,contain;
+   
+     background-repeat: no-repeat, no-repeat;
+    background-position: right,left;
+ overflow:hidden;
+
+} 
+
+#Logo{
+ display: flex;
+ justify-content: right;
+ align-items: center;
+ margin-left: auto;
+}
+
+#Atmos_logo{
+    width: 90%;
+padding-top: 5px;
+    height: 100%;
+    
+
+}
+#mainbody{
+    width: 100%;
+}
+#FormHolder
+{ display: flex;
+justify-content: right;
+position: relative;
+min-width: 400px;
+}
+#Form{ padding-left: 5%;
+    padding-top: 3%;
+    position:static;
+    width: 65%;
+    opacity: 80%;
+    border: 1px solid #000000;
+    height: 92vh;
+    border-radius: 56px;
+    background: linear-gradient(0deg, #000000, #121211),
+linear-gradient(0deg, rgba(18, 16, 16, 0.95), rgba(18, 16, 16, 0.95));
+color: #ffffff;
+}
+#form_body{
+    position: absolute;
+
+}
+#FirstName,#LastName{
+    margin-top: 4%;
+    width: 1038px;
+    min-width: 200px;
+ display: flex;
+ flex-direction: column;
+ justify-content: flex-end;   
+}
+#FormBody-2{
+    display: flex;
+    flex-direction: column;
+}
+#RegisterButton{
+width:40%;
+height:60px ;
+font-family: 'Inter', sans-serif;
+font-size: 20px;
+font-weight: 700;
+line-height: 39px;
+letter-spacing: 0em;
+text-align: left;
+color: #FFFFFF;
+background: 
+linear-gradient(180deg, rgba(61, 18, 234, 0.38) 47.92%, rgba(66, 64, 159, 0.2) 91.15%);
+border: 4px solid;
+border-image-source: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0) 100%);
+margin-top: 10%;
+margin-bottom: 5%;
+border-radius: 20px;
+text-align: center;
+
+}
